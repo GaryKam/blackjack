@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Blackjack</string>
+    <string name="play_game">Play</string>
+    <string name="desc_card_animation">Playing card animation</string>
+</resources>
