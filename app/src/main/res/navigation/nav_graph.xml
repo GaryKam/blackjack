@@ -18,6 +18,7 @@
     <fragment
         android:id="@+id/gameFragment"
         android:name="io.github.garykam.blackjack.ui.fragments.GameFragment"
-        android:label="GameFragment" />
+        android:label="GameFragment"
+        tools:layout="@layout/fragment_game"/>
 
 </navigation>
