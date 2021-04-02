@@ -7,12 +7,14 @@
     android:padding="16dp">
 
     <LinearLayout
-        android:id="@+id/table_opponent"
+        android:id="@+id/table_dealer"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:background="@color/light_gray"
+        android:divider="@drawable/transparent_divider"
         android:gravity="center"
         android:orientation="horizontal"
+        android:showDividers="middle"
         app:layout_constraintBottom_toTopOf="@id/table_player"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -24,12 +26,14 @@
         android:layout_height="0dp"
         android:layout_marginVertical="16dp"
         android:background="@color/light_gray"
+        android:divider="@drawable/transparent_divider"
         android:gravity="center"
         android:orientation="horizontal"
+        android:showDividers="middle"
         app:layout_constraintBottom_toTopOf="@id/card_options"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/table_opponent" />
+        app:layout_constraintTop_toBottomOf="@id/table_dealer" />
 
     <LinearLayout
         android:id="@+id/card_options"

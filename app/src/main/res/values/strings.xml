@@ -4,4 +4,6 @@
     <string name="desc_card_animation">Playing card animation</string>
     <string name="card_hit">Hit</string>
     <string name="card_stand">Stand</string>
+    <string name="desc_card_suit">The suit to which this card belongs</string>
+    <string name="desc_card_face_down">A card facing down</string>
 </resources>
